@@ -40,8 +40,7 @@ export default function ContactUs() {
         <div className="absolute top-1/2 left-0 w-full transform -translate-y-1/2">
           <div className="max-w-[1600px] mx-auto px-8 space-y-6 mt-56">
             <p className="font-semibold text-black">
-              <span className="uppercase">Address:</span> 222B Mohamed Said St, El
-              Kawthar area, Hurghada Red Sea - Egypt
+              <span className="uppercase">Address:</span> 
             </p>
 
             <p className="flex items-center space-x-2 text-black">
