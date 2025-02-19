@@ -7,10 +7,10 @@ import true2 from '../../shared/assets/true2.svg';
 import true3 from '../../shared/assets/true3.svg';
 import true4 from '../../shared/assets/true4.jpg';
 import true5 from '../../shared/assets/true5.svg';
-import { useFavorites } from '../../context/FavoritesContext'; // Import the custom hook
+import { useFavorites } from '../../context/FavoritesContext'; 
 
 export default function Block2() {
-  const { addToFavorites } = useFavorites(); // Get the addToFavorites function
+  const { addToFavorites } = useFavorites();
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -112,7 +112,7 @@ export default function Block2() {
                   src={follow}
                   alt="Follow"
                   className="absolute top-3 right-3 w-8 h-8 cursor-pointer hover:opacity-80 transition"
-                  onClick={() => addToFavorites(activity)} // Add to favorites on click
+                  onClick={() => addToFavorites(activity)} 
                 />
               </div>
               <div className="p-5">

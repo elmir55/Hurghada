@@ -127,7 +127,6 @@ export default function Block4() {
 												key={card.id}
 												className="flex flex-col bg-white shadow-lg rounded-lg w-[400px] flex-shrink-0 hover:shadow-2xl transition duration-300"
 										>
-												{/* Image Section */}
 												<div className="relative w-full h-[400px]"> 
   <img
     src={card.imgSrc}
